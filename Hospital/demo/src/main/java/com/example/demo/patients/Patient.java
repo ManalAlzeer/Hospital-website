@@ -14,7 +14,7 @@ public class Patient {
     private String lasttName;
     private int age;
     private String bloodType;
-    private long phoneNumber;
+    private String phoneNumber;
     private String password;
     private String gender;
 

@@ -11,7 +11,7 @@ public class Doctor {
     private int id;
     private String firstName;
     private String lasttName;
-    private long phoneNumber;
+    private String phoneNumber;
     private String password;
     private String gender;
     private String img;
