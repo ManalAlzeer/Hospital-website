@@ -20,7 +20,7 @@ public class Patient {
 
     public Patient(){}
 
-    public Patient(int id, String firstName, String lasttName, int age, String bloodType, long phoneNumber, String password, String gender) {
+    public Patient(int id, String firstName, String lasttName, int age, String bloodType, String phoneNumber, String password, String gender) {
         this.id = id;
         this.firstName = firstName;
         this.lasttName = lasttName;
@@ -71,11 +71,11 @@ public class Patient {
         this.bloodType = bloodType;
     }
 
-    public long getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(long phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 

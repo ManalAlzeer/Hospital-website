@@ -21,7 +21,7 @@ public class Doctor {
     public Doctor() {
     }
 
-    public Doctor(int id, String firstName, String lasttName, long phoneNumber, String password, String gender, String img) {
+    public Doctor(int id, String firstName, String lasttName, String phoneNumber, String password, String gender, String img) {
         this.id = id;
         this.firstName = firstName;
         this.lasttName = lasttName;
@@ -55,11 +55,11 @@ public class Doctor {
         this.lasttName = lasttName;
     }
 
-    public long getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(long phoneNumber) {
+    public void setPhoneNumber(String  phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
